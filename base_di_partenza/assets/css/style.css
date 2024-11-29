@@ -214,6 +214,7 @@ h1 {
     font-size: 10px;
     color: #555;
     margin:0;
+    padding-left: 3px;
 }
 .body-content2 p:first-child {
     font-size: 14px;
@@ -234,7 +235,7 @@ h1 {
     flex-basis: 20%;
 }
 .footer-content2 svg {
-    flex-grow: 1.5;
+    flex-grow: 1;
 }
 .footer-content2 button {
     border: none;
@@ -253,6 +254,10 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+}
+.section2-min p {
+    font-size:14px;
+    font-weight: bold;
 }
 .single-section2-min,.single-section2-min2  {
     display: flex;
