@@ -230,8 +230,11 @@ h1 {
 .footer-content2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 0px;
+    flex-basis: 20%;
+}
+.footer-content2 svg {
+    flex-grow: 1.5;
 }
 .footer-content2 button {
     border: none;
