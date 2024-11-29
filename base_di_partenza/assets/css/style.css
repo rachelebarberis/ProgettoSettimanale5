@@ -5,12 +5,16 @@ html, body {
     font-family: "Roboto", sans-serif;
 }
 /*header*/
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
 .container-nav {
     display:flex;
     flex-direction: row;
     width: 100%;
     background-color: #ffc017;
-    position:sticky;
     top:0;
     border-bottom: 1px solid black;
 }
@@ -71,3 +75,56 @@ h1 {
     padding: 10px;
     margin-top: 20px;
 }
+
+/*section*/
+.section1 {
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.section-title {
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    padding-bottom: 5px;
+}
+.p-section {
+    font-weight: bold;
+}
+.section-article {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.single-article {
+    display:flex;
+    flex-direction: row;
+    width: 27%;
+}
+.single-article-number {
+    font-size: 25px;
+    font-weight: bolder;
+    color: gray;
+    opacity:35%;
+    padding-right: 10px;
+}
+.header-img-content img {
+    width: 9%;
+    border-radius: 5px;
+}
+.body-content {
+    font-weight: bolder;
+}
+.footer-content p {
+    color: gray;
+    opacity:30%;
+}
+
+
+
