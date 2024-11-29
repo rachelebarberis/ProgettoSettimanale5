@@ -125,6 +125,35 @@ h1 {
     color: gray;
     opacity:30%;
 }
+/*section 2*/
+.section2 {
+    border: 1px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.section2-max {
+    border: 1px solid yellow;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.single-section2-max {
+    border:1px solid black;
+}
+.section2-min {
+    border: 1px solid red ;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.single-section2-min {
+    border: 1px solid black;
+}
+
 
 
 
