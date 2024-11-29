@@ -114,6 +114,21 @@ h1 {
     opacity:35%;
     padding-right: 10px;
 }
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-content img {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+.header-content p {
+    font-size: 16px;
+    color: black;
+    margin:0;
+}
 .header-img-content img {
     width: 9%;
     border-radius: 5px;
@@ -128,16 +143,22 @@ h1 {
 /*section 2*/
 .section2 {
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 8%;
     margin-top: 10%;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 .section2-max {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
+}
+.single-section2-max  {
+    margin-top:20px;
+}
+.single-section2-max:first-child  {
+    margin-top:0px;
 }
 .single-section2-max-contet {
     display: flex;
@@ -145,10 +166,10 @@ h1 {
     width: 100%;
 }
 .single-left {
-    width:60%;
+    width:65%;
 }
 .single-right {
-    width: 40%;
+    width: 35%;
 }
 .single-right img {
     width: 100%;
@@ -156,24 +177,58 @@ h1 {
 .header-content2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .header-content2 img {
     width: 8%;
     height: 8%;
     border-radius: 10px;
 }
+.header-content2 p {
+    font-size: 12px;
+    color: #555;
+    margin:0;
+}
+.body-content2 p:first-child {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+.body-content2 p:last-child, .footer-content2 p {
+    font-size: 14px;
+    color:#666;
+    margin:0;
+    line-height: 1.5;
+}
 .footer-content2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+}
+.footer-content2 button {
+    border: none;
+    background-color: gray;
+    opacity: 40%;
+    border-radius: 20px;
+    padding: 5px 15px;
 }
 
-
+.footer-content2 svg.ma {
+    width: 25px;
+    height: 25px;
+}
+.single-right img {
+    width: 100%;
+}
 .section2-min {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
 }
-.single-section2-min {
+.single-section2-min,.single-section2-min2  {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -181,13 +236,23 @@ h1 {
 
 .single-section2-min button {
     border: 1px solid gray;
-    width: 33%;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background-color: #fff; 
+    color: #555;
+    font-size: 14px; 
+    padding: 10px 15px;
+    margin:5px;
 }
-.single-section2-min a {
+.single-section2-min2 a {
     width:15%;
     color: gray;
     text-decoration: none;
 }
-
+.single-section2-min2 {
+    border-top: 1px solid gray;
+    margin-top: 30px;
+    padding-top: 10px;
+}
 
 
